@@ -6,7 +6,7 @@ import { axiosClient, axiosInstance } from "./axiosClient";
 // create axiosProducts to test favorite product
 const baseURL='https://nhom18-tiki.herokuapp.com/api/'
 //const baseURL='http://localhost:5000/api'
-//const baseURL='https://nhom3-tiki.herokuapp.com/api'
+//const baseURL='https://my-tiki-app.herokuapp.com/api'
 export const axiosProducts = axios.create({
     baseURL: baseURL,
     headers: {

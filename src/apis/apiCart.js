@@ -1,7 +1,7 @@
 import axios from 'axios';
 import queryString from 'query-string';
 const baseURL='https://nhom18-tiki.herokuapp.com/api/'
-// const baseURL='https://nhom3-tiki.herokuapp.com/api'
+// const baseURL='https://my-tiki-app.herokuapp.com/api'
 export const axiosClient = axios.create({
     baseURL: baseURL,
     headers: {
